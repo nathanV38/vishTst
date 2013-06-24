@@ -27,4 +27,8 @@ Vish::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+  
+  Encoding.default_external = "UTF-8"
+  Encoding.default_internal = "UTF-8"
+  config.encoding = "utf-8"
 end

@@ -1,4 +1,4 @@
-class SearchController < ApplicationController
+﻿class SearchController < ApplicationController
   include ActionView::Helpers::SanitizeHelper
   include SearchHelper
 
